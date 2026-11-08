@@ -1,0 +1,10 @@
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# エディタ・IDEの設定
+.vscode/
+.idea/
+*.suo
+*.swp
