@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>NANKA SUGOKU IYANA SITE</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Black+Ops+One&family=Monoton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <table width="900px" cellpadding="0" cellspacing="0">
+            <tbody class="dotgothic16-regular">
+                <tr width="216" height="110">
+                    <td class="logo">
+                        <a href="./index.html">
+                            <img src="./assets/img/LOGO.png" width="296" height="110" alt="ただのロゴ">
+                        </a>
+                    </td>
+                    <td width="47">
+                        <a href="./404.html">
+                            RSS
+                        </a>
+                    </td>
+                    <td width="116">
+                        <a href="./404.html">
+                            お問い合わせ
+                        </a>
+                    </td>
+                    <td width="47">
+                        <p id="menu-btn" aria-expanded="false">
+                            MENU
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <nav id="nav-menu" class="nav dotgothic16-regular">
+            <ul>
+                <li><a href="./index.html">ホーム</a></li>
+                <li><a href="./index.html">このサイトについて</a></li>
+                <li><a href="./404.html">RSS</a></li>
+                <li><a href="./404.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- contents -->
+    <div class="wrapper">
+        <!-- 優先表示バナー -->
+        <div class="preferred-badge-container"></div>
+        <p>※ 実際の優先ソースに追加する処理は実装されていません。ご安心ください。</p>
+
+        <h1 class="monoton-regular ta-c">Welcome to <br>NANKA IYANA SITE</h1>
+
+        <!-- 優先表示バナー -->
+        <div class="preferred-badge-container"></div>
+        <p>※ 実際の優先ソースに追加する処理は実装されていません。ご安心ください。</p>
+
+        <p>
+            このテキストをコピーしたり、右クリックしようとするとダイアログが出ます。
+        </p>
+        <p>
+            このサイトの情報は、あくまでご自身のご判断の参考としてご利用ください。
+        </p>
+
+        <!-- 優先表示バナー -->
+        <div class="preferred-badge-container"></div>
+        <p>※ 実際の優先ソースに追加する処理は実装されていません。ご安心ください。</p>
+    </div>
+    <!-- footer -->
+    <div class="footer black-ops-one-regular ta-c">
+        <h3>Supported by</h3>
+        <div class="nakayoshi-wrap">
+            <ul>
+                <li>ABCDFEG</li>
+                <li>HIJKLMN</li>
+                <li>OPQRSTU</li>
+            </ul>
+        </div>
+        <p>Copyright©2026 NANKA IYANA SITE. All Rights Reserved.</p>
+    </div>
+    <!-- cookie banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>当サイトではクッキーを使用しています。詳細についてはプライバシーポリシーをご確認ください。</p>
+        <div class="cookie-buttons">
+            <button id="btn-accept-all" class="btn-main btn">同意する</button>
+            <button id="btn-open-settings" class="btn-sub btn">設定を確認する</button>
+        </div>
+    </div>
+    <!-- cookie modal -->
+    <div id="cookie-modal" class="cookie-modal hidden">
+        <div class="modal-content">
+            <h2>Cookie設定のカスタマイズ</h2>
+            <p class="modal-desc">お客様の好みに合わせてCookieの設定を変更できます。（※一部の必須クッキーは無効化できません）</p>
+
+            <div class="setting-item">
+                <label><input type="checkbox" checked disabled> 必須クッキー (常時有効)</label>
+            </div>
+            <div class="setting-item">
+                <label><input type="checkbox" checked> パフォーマンス・解析クッキー</label>
+            </div>
+            <div class="setting-item">
+                <label><input type="checkbox" checked> ターゲティング広告クッキー</label>
+            </div>
+            <div class="setting-item">
+                <label><input type="checkbox" checked> マーケティングクッキー</label>
+            </div>
+
+            <div class="modal-buttons">
+                <button id="btn-save-settings" class="btn-main">設定を確認しました(´・ω・｀)</button>
+            </div>
+        </div>
+    </div>
+    <!-- never miss you -->
+    <div id="creepy-overlay" class="creepy-overlay hidden">
+        <div class="creepy-content">
+            <h1 class="creepy-title">どこに行こうとしているのですか？</h1>
+            <p class="creepy-text">当サイトから離れることは許可されていません。<br>閲覧を継続してください。</p>
+            <button id="btn-stay" class="creepy-btn">ここに留まる</button>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>
